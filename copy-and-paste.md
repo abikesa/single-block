@@ -1,5 +1,3 @@
-(nonself)=  
-# Nonself, 🌊  
 
 <style>
 /* ╭━━━☆━━━╮  FLOAT FRAMES (Figure / Seealso) */
