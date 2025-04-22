@@ -286,9 +286,6 @@ _Digital vs. Analog_. Non-trivial question. One emergent phenomenon of this bina
 
 <iframe src="myhtml/ilya.html" width="100%" height="1000px" style="border:none;"></iframe>
 
-<style>
-
-</style>
 
 <div class="float-frame seealso-style">
 
