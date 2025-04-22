@@ -170,6 +170,36 @@ blockquote a:hover {
     background-color: white;
     border-color: #007BFF;
 }
+
+/* Scoped variant for seealso boxes */
+.float-frame.seealso-style {
+    float: right; 
+    display: inline-block;
+    width: 190px;
+    max-width: 190px;
+    min-width: 100px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #f9f9f9;
+    position: relative;
+    text-align: center;
+    margin: 15px;
+    white-space: nowrap;
+}
+
+/* Responsive fallback */
+@media (max-width: 768px) {
+    .float-frame.seealso-style {
+        float: none !important;
+        display: block;
+        width: 95vw !important;
+        max-width: 95vw !important;
+        margin: 10px auto;
+        white-space: normal;
+    }
+}
 </style>
 
 <details class="custom-details">
@@ -257,35 +287,7 @@ _Digital vs. Analog_. Non-trivial question. One emergent phenomenon of this bina
 <iframe src="myhtml/ilya.html" width="100%" height="1000px" style="border:none;"></iframe>
 
 <style>
-/* Scoped variant for seealso boxes */
-.float-frame.seealso-style {
-    float: right; 
-    display: inline-block;
-    width: 190px;
-    max-width: 190px;
-    min-width: 100px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 6px 10px;
-    font-size: 13px;
-    background-color: #f9f9f9;
-    position: relative;
-    text-align: center;
-    margin: 15px;
-    white-space: nowrap;
-}
 
-/* Responsive fallback */
-@media (max-width: 768px) {
-    .float-frame.seealso-style {
-        float: none !important;
-        display: block;
-        width: 95vw !important;
-        max-width: 95vw !important;
-        margin: 10px auto;
-        white-space: normal;
-    }
-}
 </style>
 
 <div class="float-frame seealso-style">
