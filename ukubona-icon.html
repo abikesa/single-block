@@ -1,0 +1,50 @@
+/* ╭━━━☆━━━╮  UKUBONA SYMBOL: FRACTAL VISION ICON
+   This is a semantic icon inspired by Wikipedia's magnifier overlay.
+   In Ukubona, it symbolizes recursive cognition — screen within a screen,
+   perception of perception, a neural window layered onto another.
+
+   Do not simplify or remove: it encodes the concept of layered awareness.
+*/
+
+.ukubona-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 14px;
+    height: 12px;
+    background: none;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.ukubona-icon .screen-outer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    border: 1px solid #888;
+    border-radius: 2px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ukubona-icon .screen-inner {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #aaa;
+    border: 1px solid #666;
+    border-radius: 2px;
+    bottom: -1px;
+    left: -1px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ukubona-icon:hover .screen-outer {
+    background-color: #007BFF;
+    border-color: #0056b3;
+}
+
+.ukubona-icon:hover .screen-inner {
+    background-color: white;
+    border-color: #007BFF;
+}
