@@ -1,0 +1,26 @@
+<details class="custom-details">
+  <summary>+ Expand</summary>
+
+  <iframe src="pdfs/ecosystem-nature.pdf" width="100%" height="1000px" style="border:none"></iframe>
+
+  <blockquote class="quote-content">
+    <details>
+      <summary>Analysis</summary>
+      <p>In designing the scenery and costumes...</p>
+    </details>
+    <p>-- <a href="https://www.gutenberg.org/cache/epub/887/pg887-images.html#page221">The Truth of Masks 🎭</a></p>
+  </blockquote>
+</details>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const details = document.querySelector(".custom-details");
+    const summary = details.querySelector("summary");
+
+    details.addEventListener("toggle", function() {
+      summary.textContent = details.open ? "- Collapse" : "+ Expand";
+    });
+  });
+</script>
+<p></p>
+<p></p> 
